@@ -53,6 +53,7 @@ body {
 
 .container-right {
   justify-content: center;
+  margin-left: 2rem;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -74,7 +75,6 @@ body {
   border-radius: 50%;
   display: block;
   margin: auto;
-  border: 3px solid #F0B8C5;
 }
 
 .button {
@@ -85,25 +85,13 @@ body {
   text-align: center;
   font-size: 1.2rem;
   padding: 1rem;
-  width: 200px;
+  width: 8rem;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-}
-
-.button .discord {
-  background-color: #7289DA;
-}
-
-.button .twitter {
-  background-color: #1DA1F2;
-}
-
-.button .github {
-  background-color: #333333;
 }
 
 .social-row {
@@ -113,9 +101,26 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .social-row {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: -0.20rem;
     text-align: center;
-    position: relative;
+    position: absolute;
     display: grid;
   }
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
