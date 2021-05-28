@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background: #F0B8C5;
+  color: white;
+}
+
+::selection {
+  background: #F0B8C5;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(../img/background.png);
+  background-color: #232323;
+  background-size: cover;
+}
+
+.container {
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+  align-items: center;
+  padding-top: 2.35rem;
+  display: flex;
+  height: 85vh;
+  color: white;
+}
+
+.container-content {
+  text-align: center;
+  gap: 0.75rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container-content {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    text-align: left;
+    position: relative;
+    display: grid;
+  }
+}
+
+.container-right {
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container-right {
+    grid-column: span 3 / span 3;
+  }
+}
+
+.heading-1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 2.3rem;
+}
+
+.heading-2 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.icon {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 3px solid #F0B8C5;
+}
+
+.button {
+  background-color: #F0B8C5;
+  display: inline-block;
+  border-radius: 0.75rem;
+  color: #222222;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button .discord {
+  background-color: #7289DA;
+}
+
+.button .twitter {
+  background-color: #1DA1F2;
+}
+
+.button .github {
+  background-color: #333333;
+}
+
+.social-row {
+  text-align: center;
+  gap: 0.75rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .social-row {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    text-align: center;
+    position: relative;
+    display: grid;
+  }
+}
