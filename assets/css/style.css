@@ -16,6 +16,7 @@
 
 html {
   scroll-behavior: smooth;
+  min-height: 100%;
 }
 
 body {
@@ -25,15 +26,15 @@ body {
   background-image: url(../img/background.png);
   background-color: #232323;
   background-size: cover;
+  height: 100%;
 }
 
 .container {
   justify-content: center;
   font-family: 'Nunito', sans-serif;
   align-items: center;
-  padding-top: 2.35rem;
   display: flex;
-  height: 85vh;
+  height: 96vh;
   color: white;
 }
 
@@ -64,7 +65,7 @@ body {
 
 .heading-1 {
   font-family: 'Dosis', sans-serif;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
 
 .heading-2 {
@@ -96,6 +97,7 @@ body {
 
 .social-row {
   text-align: center;
+  display: hidden;
   gap: 0.75rem;
 }
 
