@@ -23,7 +23,7 @@ body {
   background-blend-mode: overlay;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(../img/background.png);
+  background-image: url(../img/background.webp);
   background-color: #232323;
   background-size: cover;
   height: 100%;
