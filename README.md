@@ -7,8 +7,8 @@ If you want to contribute, please make sure you're familiar with the project.
 You can ask any questions [on our Discord](https://discord.profile.place).
 
 ## Maintainers
-- [ravy](https://ravy.pink) (Project management & QA)
 - [August](https://floofy.dev) (Frontend)
+- [ravy](https://ravy.pink) (Project management & QA)
 
 ## License
 **profile.place** is released under the **GPL-3** License, read [here](/LICENSE) for more information!
